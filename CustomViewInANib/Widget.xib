@@ -18,7 +18,7 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YOT-G1-fJL">
                     <rect key="frame" x="16" y="16" width="208" height="100"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="acf-3B-TaD">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chair" translatesAutoresizingMaskIntoConstraints="NO" id="acf-3B-TaD">
                             <rect key="frame" x="79" y="25" width="50" height="50"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="50" id="Cbr-jj-cJq"/>
@@ -69,4 +69,7 @@
             <point key="canvasLocation" x="42" y="-51"/>
         </view>
     </objects>
+    <resources>
+        <image name="chair" width="108" height="102"/>
+    </resources>
 </document>
